@@ -1,15 +1,18 @@
-📝 Handwritten Character Recognition 
+# 📝 Handwritten Character Recognition 
 
 This project implements a Convolutional Neural Network (CNN) for recognizing handwritten English alphabets (A–Z) using the A–Z Handwritten Data dataset. The entire project is developed and run in Google Colab.
 
-📁 Dataset
+## 📁 Dataset
 - Dataset: A–Z Handwritten Data.csv
 
 - Source: The CSV file contains 372,450 labeled images of size 28x28 pixels for 26 English capital letters.
 
 - Format: Each row in the CSV contains the label (0–25 representing A–Z) followed by 784 pixel values.
 
-🚀 Technologies Used
+### 🔗 Open in Colab
+[![Open In Colab](https://colab.research.google.com/drive/1wAS0wdrzkqvpPTPX7MgxnBakNSAph7Mo?usp=sharing)
+
+## 🚀 Technologies Used
 - Python
 
 - Google Colab
@@ -23,7 +26,7 @@ This project implements a Convolutional Neural Network (CNN) for recognizing han
 - Scikit-learn
 
 
-✅ Steps Performed
+# ✅ Steps Performed
 1.Data Preprocessing
 
 - Normalization (scaling pixel values between 0 and 1)
@@ -60,7 +63,7 @@ This project implements a Convolutional Neural Network (CNN) for recognizing han
 
 
 
-📊 Accuracy
+## 📊 Accuracy
 
 - Final Test Accuracy: ~97%
 
@@ -72,7 +75,7 @@ This project implements a Convolutional Neural Network (CNN) for recognizing han
 
 - Visual outputs and predictions will be shown inline.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 - Use a larger/deeper CNN model
 
@@ -80,7 +83,7 @@ This project implements a Convolutional Neural Network (CNN) for recognizing han
 
 -Deploy the model using a web app interface
 
-🤝 Acknowledgements
+## 🤝 Acknowledgements
 
 - Dataset: Kaggle A–Z Handwritten Characters
 
